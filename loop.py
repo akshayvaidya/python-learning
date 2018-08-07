@@ -19,5 +19,14 @@ n=int(input("enter a number > 0 : "))
 if (n <= 0) :
     print("error")
 
-for n in range(n%2,n,3) :
+while n in range(n%2,n,3) :
     print("test")
+
+
+end=17
+i=1
+j=1
+while j <= end :
+    j+=1 
+    i+=j
+print(i)
